@@ -1,16 +1,26 @@
-/* styles.css */
+/* Define the custom font */
+@font-face {
+    font-family: 'Monument Extended'; /* Name of the font-family */
+    src: url('MonumentExtended-Regular.otf') format('woff2'), /* Add the correct path and format for each font file */
+         url('MonumentExtended-Ultrabold.otf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
-::selection{
-    background-color: white;
-    color: black;
+selction::{
+
+    baground:white;
+    color:black
+
+}
+
+/* Apply the custom font to the body or specific elements */
+body {
+    margin: 0;
+    font-family: 'Monument Extended', Arial, sans-serif; /* Apply the custom font */
 }
 
 /* Custom styles, if needed, can go here */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif; /* Ensure a default font for the body */
-}
-
 .loader-video {
     z-index: 1;
 }
@@ -23,12 +33,11 @@ a {
 /* Header specific styles */
 header a {
     font-weight: 500; /* Adjust font weight for header links if needed */
-    
 }
 
 /* Main header styles */
 .main h1 {
-    font-family: 'Monument Extended', Arial, sans-serif; /* If using custom fonts */
+    font-family: 'Monument Extended', Arial, sans-serif; /* Apply the custom font */
 }
 
 /* Responsive adjustments */
