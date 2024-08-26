@@ -1,0 +1,51 @@
+/* styles.css */
+
+::selection{
+    background-color: white;
+    color: black;
+}
+
+/* Custom styles, if needed, can go here */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif; /* Ensure a default font for the body */
+}
+
+.loader-video {
+    z-index: 1;
+}
+
+a {
+    text-decoration: none; /* Remove default underline */
+    color: inherit; /* Ensure links inherit color from parent */
+}
+
+/* Header specific styles */
+header a {
+    font-weight: 500; /* Adjust font weight for header links if needed */
+    
+}
+
+/* Main header styles */
+.main h1 {
+    font-family: 'Monument Extended', Arial, sans-serif; /* If using custom fonts */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .loader h1 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    .main h1 {
+        font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+
+    header {
+        padding: 2rem 1rem; /* Adjust padding for smaller screens */
+    }
+
+    header a {
+        font-size: 1rem; /* Adjust font size for header links on smaller screens */
+    }
+}
