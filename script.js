@@ -6,5 +6,5 @@ document.addEventListener('DOMContentLoaded', () => {
     setTimeout(() => {
         loader.style.display = 'none';
         mainContent.classList.remove('hidden');
-    }, 2000); // 1000 milliseconds = 1 second
+    }, 1000); // 1000 milliseconds = 1 second
 });
